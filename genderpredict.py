@@ -41,8 +41,8 @@ class Perceptron(object):
 
 
 # getting info
-x = pd.read_excel('perceptron-gender/X.xlsx').values
-y = pd.read_excel('perceptron-gender/Y.xlsx').values
+x = pd.read_excel('X.xlsx').values
+y = pd.read_excel('Y.xlsx').values
 x = x[:490, :]
 y = y[:490]
 y.dtype = np.uint8
